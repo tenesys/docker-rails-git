@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -f "$APP_DIR/,git/" ]
+if [ -f "$APP_DIR/.git/" ]
 then
  git pull $GIT_REPO $APP_DIR
  if [ $? -ne 0 ]
